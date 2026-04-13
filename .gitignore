@@ -1,0 +1,48 @@
+# ═══ Python ═══
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ═══ Virtual Environments ═══
+.venv/
+venv/
+env/
+
+# ═══ IDE / Editor ═══
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ═══ macOS ═══
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ═══ Simulation Output (raw artifacts) ═══
+# Exclude all generated videos and images by default.
+# README assets are committed from the assets/ directory.
+*.mp4
+*.avi
+*.png
+
+# ═══ Preserve README Assets ═══
+!assets/*.gif
+!assets/*.png
+!learning_curve_nutassembly.png
+
+# ═══ Pytest / Coverage ═══
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# ═══ Miscellaneous ═══
+*.log
+*.bak
+.roo/
