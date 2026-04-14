@@ -236,8 +236,4 @@ Built from scratch as an exploration into biological computation and neural moto
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 Copyright © 2026 Azur (Jiahao). All rights reserved.
